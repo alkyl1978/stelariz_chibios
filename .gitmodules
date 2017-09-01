@@ -1,3 +1,6 @@
 [submodule "ChibiOS"]
 	path = ChibiOS
 	url = git@domne.ru:ChibiOS.git
+[submodule "ChibiOS-Contrib"]
+	path = ChibiOS-Contrib
+	url = git@domne.ru:ChibiOS-Contrib.git
