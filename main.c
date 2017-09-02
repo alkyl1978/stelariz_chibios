@@ -6,6 +6,7 @@
  */
 int main(void)
 {
+	i =9;
   /*
    * System initializations.
    * - HAL initialization, this also initializes the configured device drivers
