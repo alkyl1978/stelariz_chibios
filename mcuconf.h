@@ -43,11 +43,11 @@
 /*
  * GPIO driver system settings.
  */
-#define TIVA_GPIO_GPIOA_USE_AHB             TRUE
-#define TIVA_GPIO_GPIOB_USE_AHB             TRUE
-#define TIVA_GPIO_GPIOC_USE_AHB             TRUE
-#define TIVA_GPIO_GPIOD_USE_AHB             TRUE
-#define TIVA_GPIO_GPIOE_USE_AHB             TRUE
+#define TIVA_GPIO_GPIOA_USE_AHB             FALSE
+#define TIVA_GPIO_GPIOB_USE_AHB             FALSE
+#define TIVA_GPIO_GPIOC_USE_AHB             FALSE
+#define TIVA_GPIO_GPIOD_USE_AHB             FALSE
+#define TIVA_GPIO_GPIOE_USE_AHB             FALSE
 #define TIVA_GPIO_GPIOF_USE_AHB             TRUE
 
 /*
@@ -118,7 +118,7 @@
 /*
  * SERIAL driver system settings.
  */
-#define TIVA_SERIAL_USE_UART0               TRUE
+#define TIVA_SERIAL_USE_UART0               FALSE
 #define TIVA_SERIAL_USE_UART1               FALSE
 #define TIVA_SERIAL_USE_UART2               FALSE
 #define TIVA_SERIAL_USE_UART3               FALSE

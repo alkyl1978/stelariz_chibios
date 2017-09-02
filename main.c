@@ -6,6 +6,7 @@
  */
 int main(void)
 {
+  int i;
   /*
    * System initializations.
    * - HAL initialization, this also initializes the configured device drivers
@@ -15,5 +16,9 @@ int main(void)
    */
   halInit();
   chSysInit();
+  while (TRUE)
+   {
+     i++;
+   }
   return 0;
 }
